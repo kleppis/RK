@@ -1,0 +1,46 @@
+.nav-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 4rem;
+    border-bottom: black solid;
+    padding-bottom: 2rem;
+    align-items: baseline;
+
+}
+
+.row-components {
+    margin-left: 1.5rem;
+    font-size: x-large;
+    transition: font-weight 400ms ease, opacity 100ms ease;
+}
+
+.logo-place {
+    flex-grow: 1;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: rgb(182, 214, 182);
+    align-items: center;
+}
+
+.logo {
+    width: fit-content;
+    transition: opacity 100ms ease;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.logo:active {
+    opacity: 0.4;
+}
+
+.row-components:hover {
+    font-weight: bold;
+    cursor: pointer
+}
+
+.row-components:active {
+    opacity: 0.4;
+}
