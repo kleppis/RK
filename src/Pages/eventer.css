@@ -1,0 +1,25 @@
+.eventer {
+    background-image: url('/Bilder/kalender.png');
+    opacity: 0.8;
+    height: 25rem;
+    text-align: center;
+}
+
+.header {
+    padding-top: 8rem;
+    padding-bottom: 13rem;
+    font-size: 5rem;
+    font-weight: 1000;
+    color: rgb(182, 214, 182);
+    transition: color 300ms ease;
+
+}
+
+.header:hover {
+    color: black;
+}
+
+.eventBoxContainer {
+    margin: 3rem 8rem 3rem 8rem;
+
+}

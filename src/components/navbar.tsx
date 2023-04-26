@@ -1,27 +1,35 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './navbar.css';
 
 function Navbar() {
     return (
-        <div className=" nav-row">
-            <div className=" logo-place">
-                <div className=" logo">
-                    RK Invitational
+        <div>
+            <div className=" nav-row">
+                <div className=" logoMainBar-place">
+                    <Link to="/" className="logoNavBar">
+                        RK Invitational
+                    </Link>
+                </div>
+                <div className=" button-row">
+                    <Link to='/Eventer' className="row-components">
+                        EVENTER
+                    </Link>
+                    <div className=" row-components">
+                        KONSEPTER
+                    </div>
+                    <div className=" row-components">
+                        BOOKING
+                    </div>
+                    <div className=" row-components">
+                        INSPIRASJON
+                    </div>
                 </div>
             </div>
-            <div className=" row-components">
-                KALENDER
+            <div className="border">
+
             </div>
-            <div className=" row-components">
-                KONSEPTER
-            </div>
-            <div className=" row-components">
-                BOOKING
-            </div>
-            <div className=" row-components">
-                INSPIRASJON
-            </div>
-        </div>
+        </div >
     )
 }
 

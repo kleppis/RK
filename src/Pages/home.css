@@ -1,0 +1,45 @@
+.RKhome {
+    background-image: url('/Bilder/RKhome.jpeg');
+    background-size: cover;
+    height: 60rem;
+    background-color: black;
+    margin-top: 2rem;
+    text-align: center;
+    border-bottom: solid black 3px;
+}
+
+.sitat {
+    position: sticky;
+    top: 30rem;
+    margin-bottom: 6rem;
+}
+
+.sitatEn {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.sitatTo {
+    font-size: 2rem;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.omOss {
+    background-color: rgb(182, 214, 182);
+}
+
+.initiativet {
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tekst {
+    margin: 4rem 8rem 0 8rem;
+    font-size: x-large;
+
+    padding-bottom: 8rem;
+}
