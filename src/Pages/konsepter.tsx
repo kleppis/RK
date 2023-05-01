@@ -55,10 +55,9 @@ function Konsepter() {
                     </div>
                 </div>
                 <div className="konseptFlex">
-                    <div className="konseptImgDiv">
-                        <img src={konsept4} alt="bilde" className="konseptImg" />
 
-                    </div>
+                    <img src={konsept4} alt="bilde" className="konseptImg" />
+
                     <div className="kTB">
                         <div className="kTH">
                             DU bestemmer
