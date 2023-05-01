@@ -5,6 +5,7 @@ import Home from './Pages/home.tsx';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Eventer from './Pages/eventer.tsx';
+import Konsepter from './Pages/konsepter.tsx';
 
 
 
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: "Eventer",
     element: <Eventer />
+  },
+  {
+    path: "Konsepter",
+    element: <Konsepter />
   },
 ]);
 

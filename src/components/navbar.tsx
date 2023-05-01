@@ -15,9 +15,9 @@ function Navbar() {
                     <Link to='/Eventer' className="row-components">
                         EVENTER
                     </Link>
-                    <div className=" row-components">
+                    <Link to='/Konsepter' className=" row-components">
                         KONSEPTER
-                    </div>
+                    </Link>
                     <div className=" row-components">
                         BOOKING
                     </div>

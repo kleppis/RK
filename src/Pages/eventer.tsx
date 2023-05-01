@@ -32,9 +32,9 @@ function Eventer() {
                     desc="Dette er en beskrivelse av aktiviteten"
                 />
                 <PlaceEventBox
-                    title="Marathon sjds"
-                    dato="13.Des"
-                    desc="Dette er en beskrivelse av aktiviteten"
+                    title="Løping"
+                    dato="20.Jan"
+                    desc="Dette er en beskrivelse av aktiviteten  ette er en beskrivelse av aktiviteten "
                 />
             </div>
             <Bunn />

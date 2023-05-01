@@ -3,7 +3,6 @@ import Navbar from "../components/navbar.tsx";
 import Bunn from "../components/bunn.tsx";
 import './home.css';
 
-//#letso 
 
 function Home() {
   return (
