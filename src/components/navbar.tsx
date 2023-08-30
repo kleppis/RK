@@ -18,9 +18,9 @@ function Navbar() {
                     <Link to='/Konsepter' className=" row-components">
                         KONSEPTER
                     </Link>
-                    <div className=" row-components">
+                    <Link to='/Booking' className=" row-components">
                         BOOKING
-                    </div>
+                    </Link>
                     <div className=" row-components">
                         INSPIRASJON
                     </div>

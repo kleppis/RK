@@ -40,23 +40,23 @@
     margin: auto;
     width: 18%;
     height: 17rem;
+    transition: transform .5s ease;
+}
 
+.konseptFlex:hover {
+    transform: scale(1.2);
 }
 
 .konseptImg {
     max-height: 13rem;
     max-width: 100%;
     margin-bottom: 4px;
-    transition: transform .5s ease;
 }
 
 .konseptImgDiv {
     overflow: hidden;
 }
 
-.konseptImg:hover {
-    transform: scale(1.13);
-}
 
 .kTH {
     font-family: cursive;

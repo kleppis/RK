@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Eventer from './Pages/eventer.tsx';
 import Konsepter from './Pages/konsepter.tsx';
+import Booking from './Pages/booking.tsx';
 
 
 
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: "Konsepter",
     element: <Konsepter />
+  },
+  {
+    path: "Booking",
+    element: <Booking />
   },
 ]);
 
