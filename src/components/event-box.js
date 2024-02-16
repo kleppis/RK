@@ -29,7 +29,7 @@ function EventBox(props) {
             </div>
             <div className="boxRow2">
                 <div className="boxPic">
-                    pic
+                    Picture
                 </div>
                 <div className="boxDate2">
                     {props.dato}

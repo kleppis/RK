@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "../components/navbar.tsx";
-import Bunn from "../components/bunn.tsx";
-import PlaceEventBox from "../components/event-box.tsx";
+import Navbar from "../components/navbar.js";
+import Bunn from "../components/bunn.js";
+import PlaceEventBox from "../components/event-box.js";
 import './eventer.css';
 
 
@@ -27,7 +27,7 @@ function Eventer() {
                     desc="Dette er en beskrivelse av aktiviteten"
                 />
                 <PlaceEventBox
-                    title="Marathon sjds"
+                    title="Marathon"
                     dato="13.Des"
                     desc="Dette er en beskrivelse av aktiviteten"
                 />

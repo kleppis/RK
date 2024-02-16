@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Home from './Pages/home.tsx';
+import Home from './Pages/home.js';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Eventer from './Pages/eventer.tsx';
-import Konsepter from './Pages/konsepter.tsx';
-import Booking from './Pages/booking.tsx';
+import Eventer from './Pages/eventer.js';
+import Konsepter from './Pages/konsepter.js';
+import Booking from './Pages/booking.js';
 
 
 

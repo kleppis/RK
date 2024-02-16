@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "../components/navbar.tsx";
-import Bunn from "../components/bunn.tsx";
+import Navbar from "../components/navbar.js";
+import Bunn from "../components/bunn.js";
 import './home.css';
 
 
